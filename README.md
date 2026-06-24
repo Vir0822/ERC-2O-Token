@@ -10,3 +10,4 @@ Smart contract of a basic ERC-20 token built from scratch with Solidity 0.8.24
 ## Technologies
 - Solidity 0.8.24
 - Ethereum
+- remix.ethereum.org
