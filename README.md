@@ -4,7 +4,7 @@
 ![Standard](https://img.shields.io/badge/Standard-ERC--20-627eea?logo=ethereum)
 ![License](https://img.shields.io/badge/License-LGPL--3.0--only-blue)
 
-A compact ERC-20 token implementation built with Solidity and OpenZeppelin. The project focuses on token creation, standard wallet transfers, and allowance-based spending through a deliberately small and easy-to-review contract.
+A portfolio project that demonstrates how to build a compact ERC-20 token with Solidity and OpenZeppelin. It focuses on token creation, standard wallet transfers, and allowance-based spending through a deliberately small and easy-to-review contract.
 
 > Educational project: this repository is intended for learning and local experimentation. It has not been audited and should not be treated as a production financial product.
 
@@ -14,6 +14,17 @@ A compact ERC-20 token implementation built with Solidity and OpenZeppelin. The 
 - Accepts the token name and symbol as deployment parameters.
 - Mints a fixed supply of 1,000 tokens to the deployer's address during construction.
 - Keeps the permission model intentionally minimal: there is no owner, admin role, or post-deployment minting function.
+
+## Portfolio Context
+
+This project demonstrates:
+
+- Solidity contract structure, inheritance, constructors, and token supply accounting.
+- Practical use of OpenZeppelin's ERC-20 implementation instead of reimplementing a token standard from scratch.
+- Understanding of direct transfers, allowances, and delegated transfers with `transferFrom`.
+- Clear technical documentation, deployment steps, and explicit security limitations.
+
+The current scope is intentionally focused on the token contract. Automated tests and deployment scripts are planned as future improvements.
 
 ## Technical Summary
 
