@@ -145,3 +145,7 @@ The repository currently contains only the contract source and documentation. It
 ## License
 
 The contract is released under the `LGPL-3.0-only` license, as declared by its SPDX identifier.
+
+## Author
+Virginia Villela 
+Blockchain Developer
